@@ -1,0 +1,5 @@
+name: etCommon
+main: net.eisental.common.etCommon
+version: 1
+author: eisental
+load: startup
