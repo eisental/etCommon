@@ -275,5 +275,18 @@ public class ParsingUtils {
             }
         }
         return sb.toString();
-    }     
+    }
+    
+    public static String indexToOrdinal(int idx) {
+        int ord = idx+1;
+        
+        switch (idx) {
+            case 0: return "1st";
+            case 1: return "2nd";
+            case 2: return "3rd";
+            default: return ord + "th";
+        }
+                        
+                    
+    }
 }
